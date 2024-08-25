@@ -1,0 +1,6 @@
+*.tmp
+*.log
+*.bak
+*.swp
+*.suo
+*.sessionstate

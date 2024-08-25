@@ -1,0 +1,46 @@
+body {margin: 0 auto;font-family: tahoma, serif;}
+/* font-family: tahoma; */
+main {margin: 0 auto;width: 650px;}
+nav {background-color: rgb(17, 17, 139);position: sticky;top: 0;height: 40px;display: flex;z-index: 2;width: 100%;}
+nav a {color: #fff;text-decoration: none;padding: 10px 5px;}
+nav a:hover {background-color: #fff;color: black;}
+form {}
+
+.full-name,.personal-info,.contact,.location,.password {display: flex;max-width: 650px;align-items: center;gap: 15px;margin: 20px auto;}
+.full-name div,.personal-info div,.contact div,.location div,.password div {width: 100%}
+.full-name input,.personal-info input,.contact input,.location input,.password input {width: 100%;height: 35px;border-radius: 8px;border: none;background-color: rgb(223, 220, 220);}
+.personal-info select,.location select {width: 100%;height: 35px;border-radius: 8px;border: none;background-color: rgb(223, 220, 220);}
+.referral {width: 100%;height: 35px;border-radius: 8px;border: none;background-color: rgb(223, 220, 220);}
+select option {background-color: #fff;}
+
+
+
+button {height: 50px;width: 100%;border: none;border-radius: 10px;background-color: #11118b;color: #fff;margin: 15px auto;font-size: 1.2rem;}
+button:hover {background-color: #0a0a46;color: #fff;}
+/* button:active {height: 48px;width: 648px;} */
+
+/* .about-me {display: flex;flex-wrap: nowrap;}
+.about-me div {height: 400px;width: 400px;}
+img {object-fit: contain;} */
+/* section:nth-of-type(2) {background-color: rgb(243, 241, 241);padding: 15px 0;}
+.social-link1,.social-link2 {display: flex;align-items: center;justify-content: center;margin: 10px 0 20px 0;gap: 30px;} */
+@media (max-width: 650px) {button,.full-name,.personal-info,.contact,.location,.password {width: 450px;align-items: center;}}
+
+
+
+
+
+
+
+
+
+
+
+
+/* flex-wrap: nowrap; */
+
+
+
+
+
+
