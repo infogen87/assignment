@@ -1,4 +1,4 @@
-body {font-family: tahoma;margin: 0;background: }
+body {font-family: tahoma;margin: 0;background: rgb(253, 247, 247)}
 nav {background-color: #11118b;position: sticky;top: 0;height: 40px;display: flex;z-index: 2;}
 nav a {color: #fff;text-decoration: none;padding: 10px 5px;}
 nav a:hover {background-color: #fff;color: black;}
@@ -12,3 +12,16 @@ tbody tr {font-weight: bold;}
 tbody tr:nth-of-type(2) {background-color: rgb(231, 222, 222);}
 tbody tr:last-of-type {border-bottom: 5px solid #11118b;}
 
+
+
+/* table {
+    border-collapse: collapse;
+    margin: 25px auto;
+    min-width: 500px;
+    overflow: hidden;
+    box-shadow: 0 0 20px gray;
+    font-size: 1.2rem;
+    max-width: 460px; /* Add this line */
+} */
+
+@media (max-width: 680px) {table {width: 460px;margin: 0 auto;}}
