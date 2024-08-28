@@ -1,10 +1,10 @@
 body {margin: 0 auto;font-family: tahoma, serif;}
-/* font-family: tahoma; */
+
 main {margin: 0 auto;width: 650px;}
 nav {background-color: rgb(17, 17, 139);position: sticky;top: 0;height: 40px;display: flex;z-index: 2;width: 100%;}
 nav a {color: #fff;text-decoration: none;padding: 10px 5px;}
 nav a:hover {background-color: #fff;color: black;}
-form {}
+
 
 .full-name,.personal-info,.contact,.location,.password {display: flex;max-width: 650px;align-items: center;gap: 15px;margin: 20px auto;}
 .full-name div,.personal-info div,.contact div,.location div,.password div {width: 100%}
@@ -17,10 +17,10 @@ select option {background-color: #fff;}
 
 button {height: 50px;width: 100%;border: none;border-radius: 10px;background-color: #11118b;color: #fff;margin: 15px auto;font-size: 1.2rem;}
 button:hover {background-color: #0a0a46;color: #fff;}
-/* button:active {height: 48px;width: 648px;} */
 
 
-@media (max-width: 680px) {main {width: 460px;margin: 0 auto;}}
+
+@media (max-width: 680px) {main {width: 420px;margin: 0 auto;}}
 
 
 
