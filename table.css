@@ -3,10 +3,10 @@ nav {background-color: #11118b;position: sticky;top: 0;height: 40px;display: fle
 nav a {color: #fff;text-decoration: none;padding: 10px 5px;}
 nav a:hover {background-color: #fff;color: black;}
 h1 {text-align: center;}
-table {border-collapse: collapse;margin: 25px auto;max-width: 750px;over-flow: hidden;box-shadow: 0 0 20px gray;font-size: 1.2rem;}
+table {border-collapse: collapse;margin: 25px auto;max-width: 750px;box-shadow: 0 0 20px gray;font-size: 1.2rem;}
 table thead tr {background-color: #11118b;color: #fff;text-align: left;font-weight: bold;}
 
 table th,table td {text-align: left;padding: 10px}
-tbody tr {font-weight: bold;}
+
 tbody tr:nth-of-type(2) {background-color: rgb(231, 222, 222);}
 tbody tr:last-of-type {border-bottom: 5px solid #11118b;}

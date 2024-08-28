@@ -22,7 +22,7 @@ p {font-size: 1.1rem;}
 
 
 .section-2 {margin: 15px 50px;padding: 10px;border-radius: 15px;border: 3px solid aqua;}
-.h2-underline {border-bottom: 4px solid aqua;width: 300px;}
+.h2-underline {border-bottom: 4px solid aqua;max-width: 180px;}
 .section-3 {height: 200px;padding: 10px;display: flex;align-items: center;justify-content: center;flex-direction: column;}
 .social-links {display: flex;align-items: center;justify-content: center;height: 200px;}
 .social-link1,.social-link2 {display: flex;align-items: center;justify-content: center;margin: 10px 0;gap: 30px;}
@@ -45,7 +45,7 @@ li::before {
   margin-right: 5px;  
 }
 .goale {display: flex;flex-wrap: wrap;}
-.goale div {max-width: 400px;margin: 0 auto;}
+.goale div {max-width: 400px;margin: 0 auto;padding: 0 8px;}
 .goal {margin-left: auto;width: 400px;margin-right: 30px;}
 .goal p {font-size: 1.5rem;}
 
